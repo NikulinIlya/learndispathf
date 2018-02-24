@@ -1,4 +1,4 @@
-package duck;
+package strategy.duck;
 
 public class FlyNoWay implements FlyBehaviour {
     public void fly() {

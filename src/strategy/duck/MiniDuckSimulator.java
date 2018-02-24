@@ -1,4 +1,4 @@
-package duck;
+package strategy.duck;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class MiniDuckSimulator {
         mallard.performQuack();
         mallard.performFly();
         System.out.println();
-        
+
         Duck model = new ModelDuck();
         model.performFly();
         model.setFlyBehaviour(new FlyRocketPowered());
